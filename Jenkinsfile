@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_USER = "sagartikare935335"
-        APP_DIR = "/home/ec2-user/crud-dd-task-mean-app"
+        APP_DIR = "/var/lib/jenkins/app/crud-dd-task-mean-app"
     }
 
     stages {
