@@ -44,9 +44,9 @@ pipeline {
 
                 cd $APP_DIR
                 git pull
-                docker compose down
-                docker compose up -d
-                '''
+                docker-compose down
+		docker-compose up -d
+                       
             }
         }
     }
